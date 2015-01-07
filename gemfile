@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'datamapper' #orm layer to work with sqllite 
+gem 'dm-sqlite-adapter'
+gem 'sqlite3'

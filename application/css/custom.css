@@ -1,0 +1,25 @@
+.mf {
+
+    border-bottom: 1px solid;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    padding:10px;
+    margin-bottom:10px;
+  }
+
+.form-inline .form-group {
+  margin-bottom: 10px;
+
+}
+
+search-form {
+
+}
+.col-md-4 {
+  background-color: #00b6ff;
+  border-color: #e7e7e7;
+  width:33%;
+  border-radius: 4px;
+  margin:1px;
+}
