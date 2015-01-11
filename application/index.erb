@@ -219,44 +219,7 @@ app.factory("datasource",function($http){
 
 
    };
-  /*return {
-    list:function(data){
-      var para = $.extend(data,{});
-      var req = $http({
-        method:"get",
-        url:base_url+"/",
-        params:para
-      });
-      return req;
-    },
-    artists: function(data){
-      var para = $.extend(data,api_obj);
-      var req = $http({
-        method:"get",
-        url: base_url+"/artists.json",
-        params:para
-      });
-      return req;
-    },
-    albums: function(data){
-      var para = $.extend(data,api_obj);
-      var req = $http({
-        method:"get",
-        url:base_url+"/albums.json",
-        params:para
-      });
-      return req;
-    },
-    tracks:function(data){
-      var para = $.extend(data,api_obj);
-      var req = $http({
-        method:"get",
-        url:base_url+"/tracks.json",
-        params:para
-      });
-      return req;
-    },
-  };*/
+  
 
 });
 
